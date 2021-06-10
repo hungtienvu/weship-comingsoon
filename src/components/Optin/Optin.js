@@ -10,9 +10,14 @@ class Optin extends Component {
   render() {
     return (
       <div className="optin">
-        <p>Want to be the first to know when we launch?</p>
-        <button onClick={() => this.modal()}>Click Me</button>
-        <div id="modal">
+        <p>What to know more what we do? Send me an email</p>
+        <p>
+          <a href="mailto:hung@weship.dev?subject=Hello weship.dev">
+            hung@weship.dev
+          </a>
+        </p>
+        {/* <button onClick={() => this.modal()}>Click Me</button> */}
+        {/* <div id="modal">
           <div className="wrapper">
             <h3>Enter Your Email</h3>
             <div className="clearfix">
@@ -20,7 +25,7 @@ class Optin extends Component {
               <div className="col-3" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

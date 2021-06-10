@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Preloader from "./components/Preloader/Preloader";
 import Timer from "./components/Countdown/Timer";
-
+import Optin from "./components/Optin/Optin";
 import "./styles.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           Coming Soon
         </h1>
         <Timer />
-        {/* <Optin /> */}
+        <Optin />
         <Preloader />
       </div>
     </div>
