@@ -11,12 +11,12 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>
-          Website
+          weship.dev
           <br />
           Coming Soon
         </h1>
         <Timer />
-        <Optin />
+        {/* <Optin /> */}
         <Preloader />
       </div>
     </div>
